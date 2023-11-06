@@ -1,0 +1,13 @@
+prefix=/Users/samiraaghalarova/Documents/Portfolio_Projects/mlproject/venv
+exec_prefix=/Users/samiraaghalarova/Documents/Portfolio_Projects/mlproject/venv
+libdir=/Users/samiraaghalarova/Documents/Portfolio_Projects/mlproject/venv/lib
+sharedlibdir=/Users/samiraaghalarova/Documents/Portfolio_Projects/mlproject/venv/lib
+includedir=/Users/samiraaghalarova/Documents/Portfolio_Projects/mlproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
